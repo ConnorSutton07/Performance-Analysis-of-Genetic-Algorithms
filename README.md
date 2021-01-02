@@ -1,0 +1,2 @@
+# Performance-Analysis-of-Genetic-Algorithms
+Here, I use a genetic algorithm to guess the contents of a string. The probability of guessing a 3-letter word (e.g., "cat") is (1/26)^3. For a string like "grocery store", with spaces included and 13 characters, the probability of randomly guessing correctly is (1/27)^13, or 2.5e-19. A genetic algorithm, however, can do this quite quickly. In this project, I vary factors such as pool size, mutation rate, and the way fitness is scaled to gain a deeper understanding of genetic algorithms and how they may be optimized.
